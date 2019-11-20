@@ -1,0 +1,19 @@
+{
+    "name": "robobit",
+    "version": "0.0.4",
+    "description": "TSB-EJ Robo:bit",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "README.md",
+        "robobit.ts",
+        "_locales/robobit-jsdoc-strings.json",
+        "_locales/robobit-strings.json"
+    ],
+    "testFiles": [
+        "tests.ts"
+    ],
+    "public": true
+}

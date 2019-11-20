@@ -1,0 +1,6 @@
+{
+  "robobit": "Functions to operate the robo:bit",
+  "robobit.setLEDBrightness": "Sets the LED Brightness",
+  "robobit.setMotorSpeed|param|Led": "the LED to act on",
+  "robobit.setMotorSpeed|param|brightness": "percent of maximum brightness, eg: 50"
+}

@@ -1,0 +1,5 @@
+{
+  "robobit.setLEDColor|block": "move %motor_number motor|motor %path|at %speed|%",
+  "robobit|block": "robo:bit",
+  "{id:category}Robobit": "Robobit"
+}
