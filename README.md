@@ -2,28 +2,8 @@
 
 
 
-The package adds support for the **robo:bit** add-on board from SparkFun.
+The package adds support for the **robo:bit** add-on board.
 
-TODO: To use this package, go to https://pxt.microbit.org, click ``Add package`` and search for **moto-bit**.
-
-### ~ hint
-
-Not currently integrated into pxt.  It must be manually added.  This package is still under development and subject to changes.
-
-### ~
-
-## Usage
-
-The package adds support for the **moto:bit** add-on board from SparkFun.
-
-* [moto:bit](https://www.sparkfun.com/products/14213)
-* [Shadow Chasis](https://www.sparkfun.com/products/13301)
-* [Hobby Gearmotor](https://www.sparkfun.com/products/13302)
-* [Wheel Pair](https://www.sparkfun.com/products/13259)
-* [RedBot Sensor - Line Follower](https://www.sparkfun.com/products/11769)
-* [ine Follower Array](https://www.sparkfun.com/products/13582)
-* [RedBot Sensor - Mechanical Bumper](https://www.sparkfun.com/products/11999)
-* [Servo Extention Cable](https://www.sparkfun.com/products/13164)
 
 ### Micro:bit Pins Used 
 
@@ -53,33 +33,6 @@ The block takes three parameters: motor select, direction, and speed.
 motobit.setMotorSpeed(Motor.Left, MotorDirection.Forward, 50)
 ```
 
-### Invert Motor Directon
-
-When a motor turns opposite to the direction that was declared, the `invert` 
-block may be used. The block accepts two parameters: motor select, and a 
-boolean variable. When the boolean is set to `true`, the motor direction is 
-inverted so that `Forward` no longer causes the motor to spin in `Reverse`, 
-but rather `Forward`.
-
-* The motor select must be either `Left` or `Right`
-* Invert must be either `true` or `false`
-
-```blocks
-motobit.invert(Motor.Left, true)
-```
-
-### Enabling Motors
-
-Regardless of the set motor speed, before the motors will turn on the switch on moto:bit
-must be set to **"Run Motors"**, and the enable motors command must be set to `ON`
-
-* Motor enable must be either `On` or `Off`.
-
-```blocks
-motobit.enable(MotorPower.On)
-```
-
-## Examples
 
 ### Example: Receiving a packet of data over wireless
 
@@ -137,8 +90,3 @@ MIT
 
 ## Supported targets
 
-* for PXT/microbit
-
-```package
-motobit=github:sparkfun/pxt-moto-bit
-```
